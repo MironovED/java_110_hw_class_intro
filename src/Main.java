@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static void checkBook(Book book, String word) {
-        System.out.println("Книга " + book.tittle);
+        System.out.println("Книга " + book.title);
         System.out.println("Оценочная стоимость: " + book.estimatePrice());
         if (book.isBig()) {
             System.out.println("В ней больше 500 страниц");
